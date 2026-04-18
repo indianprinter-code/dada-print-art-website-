@@ -1,0 +1,139 @@
+{
+  "theme": "Light",
+  "archetype": "4 (Swiss & High-Contrast)",
+  "vibe": "Modern & Vibrant, Professional, High-End Manufacturing, Trustworthy",
+  "colors": {
+    "background": {
+      "primary": "#FFFFFF",
+      "secondary": "#F8F9FA",
+      "tertiary": "#F1F3F5"
+    },
+    "text": {
+      "primary": "#0A0A0A",
+      "secondary": "#495057",
+      "inverse": "#FFFFFF"
+    },
+    "brand": {
+      "primary": "#0A0A0A",
+      "accent_cyan": "#00B4F0",
+      "accent_magenta": "#E6007E",
+      "accent_yellow": "#FFD100"
+    },
+    "border": {
+      "light": "rgba(0,0,0,0.05)",
+      "dark": "rgba(0,0,0,0.15)"
+    }
+  },
+  "typography": {
+    "heading_font": "Outfit, sans-serif",
+    "body_font": "Manrope, sans-serif",
+    "scale": {
+      "h1": "text-5xl md:text-6xl lg:text-7xl tracking-tighter leading-none font-semibold",
+      "h2": "text-3xl md:text-5xl tracking-tight leading-tight font-medium",
+      "h3": "text-2xl md:text-3xl tracking-tight leading-snug font-medium",
+      "h4": "text-xl font-medium",
+      "body": "text-base md:text-lg leading-relaxed",
+      "overline": "text-xs md:text-sm uppercase tracking-[0.2em] font-bold"
+    }
+  },
+  "layout_spacing": {
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "section_spacing": "py-24 md:py-32",
+    "grid_gap": "gap-8 md:gap-12",
+    "border_radius": "rounded-none",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-12 gap-8"
+  },
+  "surfaces": {
+    "header": "Crystal Glass - backdrop-blur-xl bg-white/70 border-b border-black/5",
+    "cards": "bg-white border border-black/10 hover:shadow-2xl transition-all duration-300",
+    "footer": "bg-[#0A0A0A] text-white py-24"
+  },
+  "pages": [
+    {
+      "name": "Home",
+      "sections": [
+        "Hero (Left text, right image, bold abstract background)",
+        "Marquee (Precision in Every Print • Roll Form Sticker Labels • Foil Stamping • UV Finishing)",
+        "About Teaser (Split layout, large numbers: 1,00,000 sq. meters/month)",
+        "Services Overview (Bento grid mode A)",
+        "Industries We Serve (Image cards with hover zoom)",
+        "Call to Action (Quote form teaser)"
+      ]
+    },
+    {
+      "name": "About Us",
+      "sections": [
+        "Hero Header (Dark overlay with machinery background)",
+        "Story & Mission (Generous spacing, large typography)",
+        "Infrastructure & Capacity (Showcasing state-of-the-art machines)",
+        "Quality Assurance (Minimalist list with icons)"
+      ]
+    },
+    {
+      "name": "Services/Capabilities",
+      "sections": [
+        "Hero Header",
+        "Detailed Capabilities List (Self-adhesive, Custom die-cut, Foil stamping, UV, lamination)",
+        "Technology Stack"
+      ]
+    },
+    {
+      "name": "Industries We Serve",
+      "sections": [
+        "Hero Header",
+        "Industry specific use-cases Grid (Pharma, FMCG, Cosmetics, F&B, Pesticides)"
+      ]
+    },
+    {
+      "name": "Gallery/Portfolio",
+      "sections": [
+        "Masonry or Grid layout of Label Samples"
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "sections": [
+        "Contact Information (Location, Phone, Email)",
+        "Quote/Inquiry Request Form (Sharp edges, clear inputs)"
+      ]
+    }
+  ],
+  "components": {
+    "buttons": "bg-[#0A0A0A] text-white px-8 py-4 uppercase tracking-widest text-sm hover:bg-black transition-colors duration-300 border border-transparent hover:border-black",
+    "forms": "Shadcn UI Input/Textarea heavily styled: bg-[#F8F9FA] border-black/10 focus:border-[#0A0A0A] rounded-none h-14",
+    "navigation": "Sticky top-0 z-50 glassmorphism",
+    "marquee": "react-fast-marquee with large outline text for 'Precision in Every Print'"
+  },
+  "media": {
+    "hero_background": "https://static.prod-images.emergentagent.com/jobs/1a41a5aa-f0e9-43b7-ad34-e3a018a5157b/images/b75ce9e572d3df711652fb4391510c78a869c6d221199fe5b71a073009fb1d3e.png",
+    "printing_machine_1": "https://images.unsplash.com/photo-1758183961426-88d64eb5f787?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzB8MHwxfHNlYXJjaHwyfHxwcmludGluZyUyMHByZXNzJTIwbWFjaGluZSUyMGluZHVzdHJpYWx8ZW58MHx8fHwxNzc2NDk5Njg3fDA&ixlib=rb-4.1.0&q=85",
+    "printing_machine_2": "https://images.unsplash.com/photo-1773525911808-8a2cfd11cbc4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzB8MHwxfHNlYXJjaHw0fHxwcmludGluZyUyMHByZXNzJTIwbWFjaGluZSUyMGluZHVzdHJpYWx8ZW58MHx8fHwxNzc2NDk5Njg3fDA&ixlib=rb-4.1.0&q=85",
+    "label_samples": [
+      "https://images.unsplash.com/photo-1617912760188-9ef603157f1e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHw0fHxyb2xsJTIwbGFiZWxzJTIwc3RpY2tlcnMlMjBwYWNrYWdpbmd8ZW58MHx8fHwxNzc2NDk5Njg3fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1605718317361-f9326fd262ca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwzfHxyb2xsJTIwbGFiZWxzJTIwc3RpY2tlcnMlMjBwYWNrYWdpbmd8ZW58MHx8fHwxNzc2NDk5Njg3fDA&ixlib=rb-4.1.0&q=85"
+    ],
+    "industries": {
+      "cosmetics": "https://images.unsplash.com/photo-1739980296455-3f8d6051ca20?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwzfHxjb3NtZXRpYyUyMHByb2R1Y3RzJTIwZWxlZ2FudCUyMHBhY2thZ2luZ3xlbnwwfHx8fDE3NzY0OTk3MDZ8MA&ixlib=rb-4.1.0&q=85",
+      "pharma": "https://images.unsplash.com/photo-1722931303388-527993417e23?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwzfHxwaGFybWFjZXV0aWNhbCUyMG1lZGljaW5lJTIwYm90dGxlc3xlbnwwfHx8fDE3NzY0OTk3MDZ8MA&ixlib=rb-4.1.0&q=85",
+      "beverage": "https://images.unsplash.com/photo-1703564803557-9bb5980a1ef0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwzfHxiZXZlcmFnZSUyMGJvdHRsZXMlMjBwYWNrYWdpbmd8ZW58MHx8fHwxNzc2NDk5NzA2fDA&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "motion": {
+    "scroll": "lenis for smooth momentum scrolling",
+    "animations": "framer-motion for fade-up on scroll, staggering children elements"
+  },
+  "icons": {
+    "library": "lucide-react"
+  },
+  "instructions_to_main_agent": [
+    "Build the website using React Router for navigating between pages: Home, About Us, Services/Capabilities, Industries We Serve, Gallery/Portfolio, Contact Us.",
+    "Install the following fonts via Google Fonts: Outfit (300, 400, 500, 600, 700) and Manrope (400, 500, 600).",
+    "Use framer-motion for all scroll reveals. Add staggered fade-ups for list items and bento grids.",
+    "Build forms using pure Tailwind CSS or customized Shadcn. Keep them brutalist (sharp edges, no border-radius, bold borders on focus).",
+    "Avoid generic shadow classes (`shadow-md`). Stick to flat, bold, modern aesthetics with sharp corners (`rounded-none`). If shadow is needed, use high-contrast drop-shadows.",
+    "Use the CMYK accents (`accent_cyan`, `accent_magenta`, `accent_yellow`) as subtle hover states, text highlights, underlines, or small decorative geometric blocks.",
+    "IMPORTANT: Add 'data-testid' to all interactive elements (buttons, links, form inputs) for testing purposes.",
+    "Never use placeholders for images. Always use the provided media URLs.",
+    "Ensure the hero background has a subtle dark/light overlay so the bold text remains readable. If using light background, use dark text."
+  ]
+}
