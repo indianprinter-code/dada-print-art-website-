@@ -154,7 +154,7 @@ export default function ContactPage() {
                 Spare capacity available
               </div>
               <div className="font-heading text-3xl tracking-tighter font-semibold leading-tight">
-                1,00,000 sq. m/month ready to ship.
+                3,00,000+ sq. m/month ready to ship.
               </div>
             </div>
           </motion.div>

@@ -150,7 +150,7 @@ export const WHY_US = [
   {
     title: "Spare Capacity Available",
     description:
-      "1,00,000 sq. meters per month ready — we can absorb new volume immediately.",
+      "3,00,000+ sq. meters per month capacity — we can absorb new volume immediately.",
   },
   {
     title: "Fast Turnaround",

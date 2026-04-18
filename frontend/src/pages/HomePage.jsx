@@ -55,7 +55,7 @@ export default function HomePage() {
                 className="mt-8 text-base md:text-lg text-black/70 max-w-xl leading-relaxed"
               >
                 DADA PRINT ART manufactures high-quality roll form sticker labels for
-                pharmaceuticals, FMCG, cosmetics, F&amp;B and pesticides — with 1,00,000 sq.
+                pharmaceuticals, FMCG, cosmetics, F&amp;B and pesticides — with 3,00,000+ sq.
                 meters/month spare capacity, ready to ship.
               </motion.p>
 
@@ -172,7 +172,7 @@ export default function HomePage() {
 
             <motion.div {...fadeUp} className="lg:col-span-7 grid grid-cols-2 gap-[2px] bg-black/10">
               {[
-                { k: "1,00,000", u: "sq. meters", l: "Spare capacity / month" },
+                { k: "3,00,000+", u: "sq. meters", l: "Production capacity / month" },
                 { k: "5+", u: "", l: "Core industries served" },
                 { k: "100%", u: "", l: "In-house quality checks" },
                 { k: "24/7", u: "", l: "Personalised service" },

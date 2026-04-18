@@ -51,7 +51,7 @@ export default function AboutPage() {
             <p>
               With the recent addition of a state-of-the-art label printing machine, we have
               significantly enhanced our production capacity and precision capabilities — putting
-              <strong className="text-[#0A0A0A]"> 1,00,000 sq. meters of spare monthly capacity </strong>
+              <strong className="text-[#0A0A0A]"> 3,00,000+ sq. meters of monthly production capacity </strong>
               at our clients' disposal.
             </p>
           </motion.div>
@@ -83,7 +83,7 @@ export default function AboutPage() {
                   Production
                 </div>
                 <div className="font-heading font-semibold text-xl mt-1">
-                  1,00,000 sq. m/month
+                  3,00,000+ sq. m/month
                 </div>
                 <div className="text-xs text-black/60 mt-1">NICKEL FS350 · spare capacity available now</div>
               </div>
