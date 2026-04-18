@@ -22,6 +22,9 @@ export const NAV_LINKS = [
   { to: "/contact", label: "Contact" },
 ];
 
+export const LOGO_URL =
+  "https://customer-assets.emergentagent.com/job_dada-labels/artifacts/m4ye90xl_DADA%20PRINT%20ART%20LOGO.jpg";
+
 export const MEDIA = {
   heroBackground:
     "https://static.prod-images.emergentagent.com/jobs/1a41a5aa-f0e9-43b7-ad34-e3a018a5157b/images/b75ce9e572d3df711652fb4391510c78a869c6d221199fe5b71a073009fb1d3e.png",

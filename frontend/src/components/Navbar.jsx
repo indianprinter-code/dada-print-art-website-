@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import { COMPANY, NAV_LINKS } from "@/lib/constants";
+import { COMPANY, NAV_LINKS, LOGO_URL } from "@/lib/constants";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -28,10 +28,14 @@ export default function Navbar() {
           data-testid="nav-logo"
           className="flex items-center gap-3 group"
         >
-          <div className="relative w-10 h-10 flex items-center justify-center bg-[#0A0A0A] text-white font-heading font-bold text-lg">
-            <span className="relative z-10">D</span>
-            <span className="absolute -top-1 -right-1 w-3 h-3 bg-cmyk-magenta"></span>
-            <span className="absolute -bottom-1 -left-1 w-3 h-3 bg-cmyk-cyan"></span>
+          <div className="relative w-12 h-12 md:w-14 md:h-14 bg-white border border-black/10 flex items-center justify-center overflow-hidden shrink-0">
+            <img
+              src={LOGO_URL}
+              alt="DADA PRINT ART logo"
+              className="w-full h-full object-contain p-1"
+            />
+            <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-cmyk-magenta"></span>
+            <span className="absolute -bottom-1 -left-1 w-2.5 h-2.5 bg-cmyk-cyan"></span>
           </div>
           <div className="leading-none">
             <div className="font-heading font-semibold tracking-tight text-base md:text-lg">
