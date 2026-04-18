@@ -104,19 +104,19 @@ export default function HomePage() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.9, delay: 0.2 }}
-                className="relative aspect-[4/5] overflow-hidden"
+                className="relative aspect-[4/5] overflow-hidden bg-[#F1F3F5]"
               >
                 <img
                   src={MEDIA.machine1}
-                  alt="Industrial printing press"
-                  className="w-full h-full object-cover"
+                  alt="NICKEL FS350 label printing press"
+                  className="w-full h-full object-contain p-4"
                 />
-                <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md p-5 border-l-4 border-cmyk-magenta">
+                <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-5 border-l-4 border-cmyk-magenta">
                   <div className="text-[10px] uppercase tracking-[0.25em] text-black/50">
                     State-of-the-art
                   </div>
                   <div className="font-heading font-semibold text-lg mt-1">
-                    Label Printing Machine
+                    NICKEL FS350 · Label Press
                   </div>
                 </div>
                 <div className="absolute top-4 right-4 flex gap-1">

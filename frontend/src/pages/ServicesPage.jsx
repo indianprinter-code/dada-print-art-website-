@@ -119,17 +119,20 @@ export default function ServicesPage() {
       <section className="py-24 md:py-32 bg-white">
         <div className="max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <motion.div {...fadeUp} className="relative aspect-[4/3] overflow-hidden">
+            <motion.div {...fadeUp} className="relative aspect-[4/3] overflow-hidden bg-[#F1F3F5]">
               <img
                 src={MEDIA.machine1}
-                alt="Printing press"
-                className="w-full h-full object-cover"
+                alt="NICKEL FS350 printing press"
+                className="w-full h-full object-contain p-4"
               />
               <div className="absolute top-4 left-4 flex gap-1">
                 <span className="w-3 h-3 bg-cmyk-cyan"></span>
                 <span className="w-3 h-3 bg-cmyk-magenta"></span>
                 <span className="w-3 h-3 bg-cmyk-yellow"></span>
                 <span className="w-3 h-3 bg-[#0A0A0A]"></span>
+              </div>
+              <div className="absolute bottom-4 right-4 bg-[#0A0A0A] text-white px-3 py-2 text-[10px] uppercase tracking-[0.25em] font-semibold">
+                NICKEL FS350
               </div>
             </motion.div>
             <motion.div {...fadeUp}>

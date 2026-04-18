@@ -72,11 +72,11 @@ export default function AboutPage() {
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-            <motion.div {...fadeUp} className="relative aspect-[4/3] overflow-hidden">
+            <motion.div {...fadeUp} className="relative aspect-[4/3] overflow-hidden bg-[#F1F3F5]">
               <img
                 src={MEDIA.machine2}
-                alt="Label printing machine"
-                className="w-full h-full object-cover"
+                alt="NICKEL FS350 label printing machine"
+                className="w-full h-full object-contain p-4"
               />
               <div className="absolute bottom-6 left-6 bg-white/95 backdrop-blur-md p-5 border-l-4 border-cmyk-cyan max-w-xs">
                 <div className="text-[10px] uppercase tracking-[0.25em] text-black/50">
@@ -85,7 +85,7 @@ export default function AboutPage() {
                 <div className="font-heading font-semibold text-xl mt-1">
                   1,00,000 sq. m/month
                 </div>
-                <div className="text-xs text-black/60 mt-1">spare capacity available now</div>
+                <div className="text-xs text-black/60 mt-1">NICKEL FS350 · spare capacity available now</div>
               </div>
             </motion.div>
             <motion.div {...fadeUp} className="flex flex-col justify-center">

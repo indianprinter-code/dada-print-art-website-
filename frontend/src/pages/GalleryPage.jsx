@@ -41,17 +41,11 @@ const GALLERY = [
   },
   {
     img: MEDIA.machine1,
-    title: "In-House Press",
+    title: "NICKEL FS350 Press",
     category: "Production",
     accent: "#00B4F0",
-    span: "md:col-span-4",
-  },
-  {
-    img: MEDIA.machine2,
-    title: "Precision Registration",
-    category: "Production",
-    accent: "#E6007E",
-    span: "md:col-span-4",
+    span: "md:col-span-8",
+    light: true,
   },
   {
     img: MEDIA.fmcg,
@@ -112,26 +106,32 @@ export default function GalleryPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.6, delay: (i % 6) * 0.05 }}
-                className={`relative overflow-hidden group ${g.span || "md:col-span-4"}`}
+                className={`relative overflow-hidden group ${g.span || "md:col-span-4"} ${
+                  g.light ? "bg-[#F1F3F5]" : ""
+                }`}
                 data-testid={`gallery-item-${i}`}
               >
                 <img
                   src={g.img}
                   alt={g.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  className={`w-full h-full transition-transform duration-700 group-hover:scale-110 ${
+                    g.light ? "object-contain p-6" : "object-cover"
+                  }`}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A]/90 via-[#0A0A0A]/20 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-300"></div>
+                {!g.light && (
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A]/90 via-[#0A0A0A]/20 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-300"></div>
+                )}
                 <div className="absolute top-4 left-4 flex items-center gap-2">
                   <span
                     className="w-3 h-3 block"
                     style={{ background: g.accent }}
                   ></span>
-                  <span className="text-[10px] uppercase tracking-[0.25em] font-semibold text-white">
+                  <span className={`text-[10px] uppercase tracking-[0.25em] font-semibold ${g.light ? "text-black/70" : "text-white"}`}>
                     {g.category}
                   </span>
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="font-heading text-2xl md:text-3xl tracking-tight font-medium text-white">
+                  <h3 className={`font-heading text-2xl md:text-3xl tracking-tight font-medium ${g.light ? "text-[#0A0A0A]" : "text-white"}`}>
                     {g.title}
                   </h3>
                 </div>

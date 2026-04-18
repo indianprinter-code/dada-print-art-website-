@@ -29,9 +29,9 @@ export const MEDIA = {
   heroBackground:
     "https://static.prod-images.emergentagent.com/jobs/1a41a5aa-f0e9-43b7-ad34-e3a018a5157b/images/b75ce9e572d3df711652fb4391510c78a869c6d221199fe5b71a073009fb1d3e.png",
   machine1:
-    "https://images.unsplash.com/photo-1758183961426-88d64eb5f787?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzB8MHwxfHNlYXJjaHwyfHxwcmludGluZyUyMHByZXNzJTIwbWFjaGluZSUyMGluZHVzdHJpYWx8ZW58MHx8fHwxNzc2NDk5Njg3fDA&ixlib=rb-4.1.0&q=85",
+    "https://customer-assets.emergentagent.com/job_dada-labels/artifacts/i3fz55bu_FS350-PIC.png",
   machine2:
-    "https://images.unsplash.com/photo-1773525911808-8a2cfd11cbc4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzB8MHwxfHNlYXJjaHw0fHxwcmludGluZyUyMHByZXNzJTIwbWFjaGluZSUyMGluZHVzdHJpYWx8ZW58MHx8fHwxNzc2NDk5Njg3fDA&ixlib=rb-4.1.0&q=85",
+    "https://customer-assets.emergentagent.com/job_dada-labels/artifacts/i3fz55bu_FS350-PIC.png",
   labels: [
     "https://images.unsplash.com/photo-1617912760188-9ef603157f1e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHw0fHxyb2xsJTIwbGFiZWxzJTIwc3RpY2tlcnMlMjBwYWNrYWdpbmd8ZW58MHx8fHwxNzc2NDk5Njg3fDA&ixlib=rb-4.1.0&q=85",
     "https://images.unsplash.com/photo-1605718317361-f9326fd262ca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwzfHxyb2xsJTIwbGFiZWxzJTIwc3RpY2tlcnMlMjBwYWNrYWdpbmd8ZW58MHx8fHwxNzc2NDk5Njg3fDA&ixlib=rb-4.1.0&q=85",
