@@ -28,20 +28,17 @@ export default function Navbar() {
           data-testid="nav-logo"
           className="flex items-center gap-3 group"
         >
-          <div className="relative w-12 h-12 md:w-14 md:h-14 bg-white border border-black/10 flex items-center justify-center overflow-hidden shrink-0">
-            <img
-              src={LOGO_URL}
-              alt="DADA PRINT ART logo"
-              className="w-full h-full object-contain p-1"
-            />
-            <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-cmyk-magenta"></span>
-            <span className="absolute -bottom-1 -left-1 w-2.5 h-2.5 bg-cmyk-cyan"></span>
-          </div>
-          <div className="leading-none">
+          <img
+            src={LOGO_URL}
+            alt="DADA PRINT ART logo"
+            className="h-12 md:h-14 w-auto object-contain"
+            style={{ mixBlendMode: "multiply" }}
+          />
+          <div className="leading-none hidden sm:block">
             <div className="font-heading font-semibold tracking-tight text-base md:text-lg">
               {COMPANY.name}
             </div>
-            <div className="text-[10px] uppercase tracking-[0.22em] text-black/50 mt-1 hidden sm:block">
+            <div className="text-[10px] uppercase tracking-[0.22em] text-black/50 mt-1">
               {COMPANY.tagline}
             </div>
           </div>

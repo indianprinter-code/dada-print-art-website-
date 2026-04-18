@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
-import { COMPANY, NAV_LINKS, LOGO_URL } from "@/lib/constants";
+import { COMPANY, NAV_LINKS } from "@/lib/constants";
 
 export default function Footer() {
   return (
@@ -37,16 +37,9 @@ export default function Footer() {
       <div className="relative max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16 py-16 grid grid-cols-1 md:grid-cols-12 gap-10">
         <div className="md:col-span-5">
           <div className="flex items-center gap-4 mb-6">
-            <div className="relative w-14 h-14 bg-white flex items-center justify-center overflow-hidden shrink-0">
-              <img
-                src={LOGO_URL}
-                alt="DADA PRINT ART logo"
-                className="w-full h-full object-contain p-1"
-              />
-              <span className="absolute -top-1 -right-1 w-3 h-3 bg-cmyk-magenta"></span>
-              <span className="absolute -bottom-1 -left-1 w-3 h-3 bg-cmyk-cyan"></span>
+            <div className="font-heading font-semibold text-2xl tracking-tight">
+              {COMPANY.name}
             </div>
-            <div className="font-heading font-semibold text-lg">{COMPANY.name}</div>
           </div>
           <p className="text-white/70 leading-relaxed max-w-md">
             Precision in Every Print. Trusted manufacturing partner for roll form sticker labels
