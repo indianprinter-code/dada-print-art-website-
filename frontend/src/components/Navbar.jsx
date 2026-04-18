@@ -32,7 +32,6 @@ export default function Navbar() {
             src={LOGO_URL}
             alt="DADA PRINT ART logo"
             className="h-12 md:h-14 w-auto object-contain"
-            style={{ mixBlendMode: "multiply" }}
           />
           <div className="leading-none hidden sm:block">
             <div className="font-heading font-semibold tracking-tight text-base md:text-lg">

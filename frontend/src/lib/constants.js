@@ -23,7 +23,7 @@ export const NAV_LINKS = [
 ];
 
 export const LOGO_URL =
-  "https://customer-assets.emergentagent.com/job_dada-labels/artifacts/m4ye90xl_DADA%20PRINT%20ART%20LOGO.jpg";
+  "https://customer-assets.emergentagent.com/job_dada-labels/artifacts/dcwkcsoi_DPA%20LOGO%20PNG%20Files.png";
 
 export const MEDIA = {
   heroBackground:
