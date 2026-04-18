@@ -12,15 +12,15 @@ const GALLERY = [
     span: "md:col-span-8 md:row-span-2",
   },
   {
-    img: MEDIA.cosmetics,
+    img: MEDIA.cosmeticsAlt,
     title: "Cosmetics Bottle Labels",
     category: "Cosmetics",
     accent: "#FFD100",
     span: "md:col-span-4",
   },
   {
-    img: MEDIA.pharma,
-    title: "Pharma Vials",
+    img: MEDIA.pharmaAlt,
+    title: "Pharma Vials & Ampoules",
     category: "Pharmaceuticals",
     accent: "#00B4F0",
     span: "md:col-span-4",

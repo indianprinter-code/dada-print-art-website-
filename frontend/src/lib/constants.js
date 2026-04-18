@@ -37,9 +37,9 @@ export const MEDIA = {
     "https://images.unsplash.com/photo-1605718317361-f9326fd262ca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwzfHxyb2xsJTIwbGFiZWxzJTIwc3RpY2tlcnMlMjBwYWNrYWdpbmd8ZW58MHx8fHwxNzc2NDk5Njg3fDA&ixlib=rb-4.1.0&q=85",
   ],
   cosmetics:
-    "https://images.unsplash.com/photo-1739980296455-3f8d6051ca20?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwzfHxjb3NtZXRpYyUyMHByb2R1Y3RzJTIwZWxlZ2FudCUyMHBhY2thZ2luZ3xlbnwwfHx8fDE3NzY0OTk3MDZ8MA&ixlib=rb-4.1.0&q=85",
+    "https://images.unsplash.com/photo-1767256046031-743d33937c4e?auto=format&fit=crop&w=1600&q=80",
   pharma:
-    "https://images.unsplash.com/photo-1722931303388-527993417e23?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwzfHxwaGFybWFjZXV0aWNhbCUyMG1lZGljaW5lJTIwYm90dGxlc3xlbnwwfHx8fDE3NzY0OTk3MDZ8MA&ixlib=rb-4.1.0&q=85",
+    "https://images.unsplash.com/photo-1763142842692-b3e649aae313?auto=format&fit=crop&w=1600&q=80",
   beverage:
     "https://images.unsplash.com/photo-1703564803557-9bb5980a1ef0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwzfHxiZXZlcmFnZSUyMGJvdHRsZXMlMjBwYWNrYWdpbmd8ZW58MHx8fHwxNzc2NDk5NzA2fDA&ixlib=rb-4.1.0&q=85",
   fmcg:
@@ -48,6 +48,12 @@ export const MEDIA = {
     "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&w=1600&q=80",
   pesticides:
     "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=1600&q=80",
+  pharmaAlt:
+    "https://images.unsplash.com/photo-1763142843509-7a7312482073?auto=format&fit=crop&w=1600&q=80",
+  pharmaSyrup:
+    "https://images.unsplash.com/photo-1573208135184-851d2e374a98?auto=format&fit=crop&w=1600&q=80",
+  cosmeticsAlt:
+    "https://images.unsplash.com/photo-1771955216611-0a826d819978?auto=format&fit=crop&w=1600&q=80",
 };
 
 export const INDUSTRIES = [
@@ -55,7 +61,7 @@ export const INDUSTRIES = [
     key: "pharma",
     title: "Pharmaceuticals",
     description:
-      "Compliant, durable labels for bottles, vials, ampoules & cartons — high-legibility print and tamper-evident finishes.",
+      "Compliant, durable labels for injection vials, ampoules, syrups, mouthwash and cartons — high-legibility print with tamper-evident and batch coding options.",
     image: MEDIA.pharma,
     accent: "#00B4F0",
   },
@@ -63,7 +69,7 @@ export const INDUSTRIES = [
     key: "cosmetics",
     title: "Cosmetics & Personal Care",
     description:
-      "Premium foil-stamped, UV-gloss and laminated labels that elevate beauty and personal care packaging.",
+      "Premium labels for Vitamin C serums, niacinamide, creams and beauty packaging — foil-stamped, UV-gloss and laminated for a high-end shelf finish.",
     image: MEDIA.cosmetics,
     accent: "#E6007E",
   },
